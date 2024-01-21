@@ -1,4 +1,4 @@
-const { calculateBonus } = require("./sum2.js");
+const { calculateBonus } = require('./sum2.js')
 
 describe("Группируем тесты одной функции calculateBonus", () => {
   // начало функции describe
@@ -10,6 +10,6 @@ describe("Группируем тесты одной функции calculateBon
 
   it("функция должна вернуть реультат 50", () => {
     //второй тест внутри describe
-    expect(calculateBonus(25, 35)).toBe(450);
+    expect(calculateBonus(25, 35)).toBe(50);
   });
 }); // вот эти две скобки от верхней функции describe
